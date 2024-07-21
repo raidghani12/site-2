@@ -1115,7 +1115,7 @@ section,
   height: 4px;
 }
 .rt-section-heading .rt-section-text {
-  background-color:var(--color-primary);
+  background-color:#e9b700;
   border-radius: 4px;
   color: var(--color-white);
   font-size: 20px;
