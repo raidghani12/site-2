@@ -1901,7 +1901,7 @@ section,
   border-top-right-radius: 3px;
   background-color: var(--color-white);
   font-size: 1rem;
-  color: var(--color-primary);
+  color:#263860;
   counter-increment: post-counter;
   content: counter(post-counter);
   font-weight: 500;
