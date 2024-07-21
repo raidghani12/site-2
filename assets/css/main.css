@@ -6398,7 +6398,7 @@ section,
   .navmenu li:hover>a,
   .navmenu .active,
   .navmenu .active:focus {
-      color: var(--nav-hover-color);
+      color: #e9b700;
       text-decoration-line: underline;
       text-decoration-thickness: 2px;
       text-underline-offset: 10px;
