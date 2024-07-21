@@ -869,6 +869,8 @@ h6 {
 
 .bg--darkgrey {
   background-color: rgba(231,231,231, 0.6) !important;
+  border-bottom: 5px solid #e9b700;
+  border-top: 5px solid #e9b700;
 }
 
 /*============================ 
@@ -5769,6 +5771,7 @@ section,
   overflow: hidden;
   z-index: 1;
   padding: 0 25px;
+  border-top: 5px solid #e9b700;
 }
 @media (min-width: 1400px) {
   .footer {
@@ -6233,6 +6236,7 @@ section,
   align-items: center;
   justify-content: center;
   background-position:center;
+  border-bottom: 5px solid #e9b700;
 }
 
 .hero img {
