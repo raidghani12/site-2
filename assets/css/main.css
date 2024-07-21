@@ -1103,7 +1103,7 @@ section,
   width: 9px;
   height: 9px;
   border-radius: 50%;
-  background-color: var(--color-primary);
+  background-color:#e9b700);
   display: inline-block;
 }
 .rt-section-heading .rt-section-line {
