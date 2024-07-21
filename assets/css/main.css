@@ -6291,7 +6291,7 @@ section,
 }
 
 .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
-  background: rgba(255, 0, 0, 0.6);
+  background: #b18c04;
 }
 .owl-carousel .owl-stage-outer .owl-theme .owl-stage{
   transition: 5s ease-out 15s ease-in 30s ease-in-out;
