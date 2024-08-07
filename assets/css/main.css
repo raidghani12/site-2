@@ -6329,7 +6329,7 @@ section,
 /* Header */
 
 .header {
-  background-color: #1B3DAF;
+  background-color: #000000;
   --nav-color: rgb(255, 255, 255);
   --nav-hover-color: #ffffff;
   padding: 5px 50px;
@@ -6339,7 +6339,7 @@ section,
 
 .scrolled {
   box-shadow: 0 0 30px 10px rgba(0, 0, 0, 0.1);
-  background-color: #1B3DAF;
+  background-color: #000000;
 }
 
 .header .logo {
