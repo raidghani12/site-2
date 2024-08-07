@@ -869,8 +869,8 @@ h6 {
 
 .bg--darkgrey {
   background-color: #f2f7ff !important;
-  border-bottom: 5px solid #e9b700;
-  border-top: 5px solid #e9b700;
+  border-bottom: 4px solid #000000;
+  border-top: 4px solid #000000;
 }
 
 /*============================ 
@@ -988,8 +988,8 @@ select,
   padding-top: 80px;
   padding-bottom: 80px;
   background-color: #f2f7ff !important;
-  border-bottom: 5px solid #e9b700;
-  border-top: 5px solid #e9b700;
+  border-bottom: 4px solid #000000;
+  border-top: 4px solid #000000;
 }
 
 @media screen and (max-device-width: 480px) {
@@ -5796,7 +5796,7 @@ section,
   overflow: hidden;
   z-index: 1;
   padding: 0 25px;
-  border-top: 5px solid #e9b700;
+  border-top: 4px solid #000000;
 }
 @media (min-width: 1400px) {
   .footer {
@@ -6254,7 +6254,7 @@ section,
   align-items: center;
   justify-content: center;
   background-position:center;
-  border-bottom: 5px solid #e9b700;
+  border-bottom: 4px solid #000000;
 }
 
 .hero img {
