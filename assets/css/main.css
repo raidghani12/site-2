@@ -7,7 +7,7 @@
   --font-body: "Roboto", sans-serif;
   --font-title: "Spartan", sans-serif;
   --font-awesome: "Font Awesome 5 Free";
-  --color-primary: #263860;
+  --color-primary: #000000;
   --color-primary-rgb: 41, 98, 255;
   --color-white: #fff;
   --color-white-rgb: 255, 255, 255;
@@ -1336,7 +1336,7 @@ section,
 .fashion,
 .life-style,
 .tennis {
-  background-color: #263860;
+  background-color: #000000;
 }
 
 .fashion-black {
@@ -1351,18 +1351,18 @@ section,
 .food,
 .world,
 .ragbi {
-  background-color: #263860;
+  background-color: #000000;
 }
 
 .mission,
 .technology,
 .football {
-  background-color: #263860;
+  background-color: #000000;
 }
 
 .racing,
 .travel {
-  background-color: #263860;
+  background-color: #000000;
 }
 
 .animal {
@@ -1417,7 +1417,7 @@ section,
 }
 
 .ft-gym {
-  background-color: #263860;
+  background-color: #000000;
 }
 
 .ft-fit {
@@ -1922,7 +1922,7 @@ section,
   border-top-right-radius: 3px;
   background-color: var(--color-white);
   font-size: 1rem;
-  color:#263860;
+  color:#000000;
   counter-increment: post-counter;
   content: counter(post-counter);
   font-weight: 500;
@@ -3140,7 +3140,7 @@ section,
 }
 .rt-tab-menu .menu-link.active, .rt-tab-menu .menu-link:hover {
   color: var(--color-white);
-  background-color:#263860;
+  background-color:#000000;
   border-color: var(--color-primary);
   -webkit-box-shadow: 0px 10px 18px 0px rgba(50, 112, 252, 0.27);
           box-shadow: 0px 10px 18px 0px rgba(50, 112, 252, 0.27);
