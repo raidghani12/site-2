@@ -868,7 +868,7 @@ h6 {
 }
 
 .bg--darkgrey {
-  background-color: rgba(202,200,200, 0.6) !important;
+  background-color: #f2f7ff !important;
   border-bottom: 5px solid #e9b700;
   border-top: 5px solid #e9b700;
 }
