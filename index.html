@@ -18,7 +18,9 @@
    <!-- Fonts -->
    <link href="https://fonts.googleapis.com" rel="preconnect">
    <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
-   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+   <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet">
 
    <!-- Vendor CSS Files -->
    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -36,1237 +38,1410 @@
 
 <body class="index-page">
 
-<header id="header" class="header fixed-top">
-   <div class="container position-relative d-flex align-items-center justify-content-between">
-      <div class="row">
-         <a href="index.html" class="logo">
-            <h1 class="line1">The</h1>
-            <h1 class="line2">Dubai Business Capital</h1>
-         </a>
+   <header id="header" class="header fixed-top">
+      <div class="container position-relative d-flex align-items-center justify-content-between">
+         <div class="row">
+            <a href="index.html" class="logo">
+               <h1 class="line1">The</h1>
+               <h1 class="line2">Dubai Business Capital</h1>
+            </a>
+         </div>
+         <nav id="navmenu" class="navmenu">
+            <ul>
+               <li><a href="index.html" class="active">Home</a></li>
+               <li><a href="#">Articles</a></li>
+               <li><a href="#">Economists</a></li>
+               <li><a href="#">Projects</a></li>
+               <li><a href="#">Podcasts</a></li>
+               <li><a href="#">Photos</a></li>
+               <li><a href="#">Videos</a></li>
+               <li><a href="#" data-bs-toggle="modal" data-bs-target="#searchModal"><i class="bi bi-search"></i></a>
+               </li>
+            </ul>
+            <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+         </nav>
       </div>
-      <nav id="navmenu" class="navmenu">
-         <ul>
-         <li><a href="index.html" class="active">Home</a></li>
-         <li><a href="#">Articles</a></li>
-         <li><a href="#">Economists</a></li>
-         <li><a href="#">Strategic projects</a></li>
-         <li><a href="#">Podcasts</a></li>
-         <li><a href="#">Photos</a></li>
-         <li><a href="#">Videos</a></li>
-         <li><a href="#" data-bs-toggle="modal" data-bs-target="#searchModal"><i class="bi bi-search"></i></a></li>
-         </ul>
-         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
-      </nav>
-   </div>
-</header>
+   </header>
 
-<!-- Modal Search Start -->
-<div class="modal fade" id="searchModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-   <div class="modal-dialog modal-fullscreen">
-      <div class="modal-content rounded-0">
-         <!-- <div class="modal-header">
+   <!-- Modal Search Start -->
+   <div class="modal fade" id="searchModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-fullscreen">
+         <div class="modal-content rounded-0">
+            <!-- <div class="modal-header">
             <h5 class="modal-title" id="exampleModalLabel">Search by keyword</h5>
             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
          </div> -->
-         <div class="modal-body d-flex align-items-center">
-            <div class="input-group w-auto mx-auto d-flex">
-                  <input type="search" class="form-control p-3" placeholder="Search..." aria-describedby="search-icon-1">
-                  <span class="input-group-text p-3"><i type="button" class="btn-close" data-bs-dismiss="modal"></i></span>
-            </div>
-         </div>
-      </div>
-   </div>
-</div>
-<!-- Modal Search End -->
-
-<main class="main">
-
-<!-- Hero Section -->
-<section id="hero" class="hero">
-   <div class="container-fluid">
-      <div class="row">
-         <div class="col-xl-12 col-lg-12">
-            <div class="owl-carousel owl-theme slide" id="featured">
-               <div class="item">
-                  <div class="rt-post-overlay rt-post-overlay-xl layout-1">
-                     <div class="hero">
-                        <a href="#" class="img-link">
-                        <img src="assets/images/hero/hero1.jpg" alt="">
-                        </a>
-                     </div>
-                     <div class="hero-content">
-                        <div class="post-content">
-                           <a href="#" class="fashion">Technology</a>
-                           <h3 class="post-title bold-underline">
-                           <a href="#">The Emirates… A Global Center for Innovation and Technology</a>
-                           </h3>
-                           <div class="post-meta">
-                              <ul>
-                                 <li>
-                                 <span class="rt-meta">
-                                       by <a href="#" class="name">Raid Alshammari</a>
-                                 </span>
-                                 </li>
-                                 <li>
-                                 <span class="rt-meta">
-                                       <i class="far fa-calendar-alt icon"></i>
-                                       JULY 17, 2024
-                                 </span>
-                                 </li>
-                                 <li>
-                                 <span class="rt-meta">
-                                       <i class="far fa-comments icon"></i>
-                                       <a href="#">8 Comments</a>
-                                 </span>
-                                 </li>
-                              </ul>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-               <div class="item">
-                  <div class="rt-post-overlay rt-post-overlay-xl layout-1">
-                     <div class="hero">
-                        <a href="#" class="img-link">
-                        <img src="assets/images/hero/hero2.jpg" alt="">
-                        </a>
-                     </div>
-                     <div class="hero-content">
-                        <div class="post-content">
-                           <a href="#" class="fashion">Strategic Projects</a>
-                           <h3 class="post-title bold-underline">
-                           <a href="#">Experts And Thought Leaders Gather At Dubai Metaverse Assembly</a>
-                           </h3>
-                           <div class="post-meta">
-                              <ul>
-                                 <li>
-                                 <span class="rt-meta">
-                                       by <a href="#" class="name">Raid Alshammari</a>
-                                 </span>
-                                 </li>
-                                 <li>
-                                 <span class="rt-meta">
-                                       <i class="far fa-calendar-alt icon"></i>
-                                       JULY 17, 2024
-                                 </span>
-                                 </li>
-                                 <li>
-                                 <span class="rt-meta">
-                                       <i class="far fa-comments icon"></i>
-                                       <a href="#">5 Comments</a>
-                                 </span>
-                                 </li>
-                              </ul>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-               <div class="item">
-                  <div class="rt-post-overlay rt-post-overlay-xl layout-1">
-                     <div class="hero">
-                        <a href="#" class="img-link">
-                        <img src="assets/images/hero/hero3.jpg" alt="">
-                        </a>
-                     </div>
-                     <div class="hero-content">
-                        <div class="post-content">
-                           <a href="#" class="fashion">One Billion Meals</a>
-                           <h3 class="post-title bold-underline">
-                           <a href="#">Mohammed bin Rashid reviews the 'One Billion Meals Endowment Tower'</a>
-                           </h3>
-                           <div class="post-meta">
-                              <ul>
-                                 <li>
-                                 <span class="rt-meta">
-                                       by <a href="#" class="name">Raid Alshammari</a>
-                                 </span>
-                                 </li>
-                                 <li>
-                                 <span class="rt-meta">
-                                       <i class="far fa-calendar-alt icon"></i>
-                                       JULY 17, 2024
-                                 </span>
-                                 </li>
-                                 <li>
-                                 <span class="rt-meta">
-                                       <i class="far fa-comments icon"></i>
-                                       <a href="#">4 Comments</a>
-                                 </span>
-                                 </li>
-                              </ul>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
+            <div class="modal-body d-flex align-items-center">
+               <div class="input-group w-auto mx-auto d-flex">
+                  <input type="search" class="form-control p-3" placeholder="Search..."
+                     aria-describedby="search-icon-1">
+                  <span class="input-group-text p-3"><i type="button" class="btn-close"
+                        data-bs-dismiss="modal"></i></span>
                </div>
             </div>
          </div>
       </div>
    </div>
-</section>
-<!-- End Hero Section -->
+   <!-- Modal Search End -->
 
-<!-- Top Stories Section -->
-<section class="section-padding">
-   <div class="container">
-         <div class="row">
-            <div class="col-12">
+   <main class="main">
+
+      <!-- Hero Section -->
+      <section id="hero" class="hero">
+         <div class="container-fluid">
+            <div class="row">
+               <div class="col-xl-12 col-lg-12">
+                  <div class="owl-carousel owl-theme slide" id="featured">
+                     <div class="item">
+                        <div class="rt-post-overlay rt-post-overlay-xl layout-1">
+                           <div class="hero">
+                              <a href="#" class="img-link">
+                                 <img src="assets/images/hero/hero1.jpg" alt="">
+                              </a>
+                           </div>
+                           <div class="hero-content">
+                              <div class="post-content">
+                                 <a href="#" class="fashion">Technology</a>
+                                 <h3 class="post-title bold-underline">
+                                    <a href="#">The Emirates… A Global Center for Innovation and Technology</a>
+                                 </h3>
+                                 <div class="post-meta">
+                                    <ul>
+                                       <li>
+                                          <span class="rt-meta">
+                                             by <a href="#" class="name">Raid Alshammari</a>
+                                          </span>
+                                       </li>
+                                       <li>
+                                          <span class="rt-meta">
+                                             <i class="far fa-calendar-alt icon"></i>
+                                             JULY 17, 2024
+                                          </span>
+                                       </li>
+                                       <li>
+                                          <span class="rt-meta">
+                                             <i class="far fa-comments icon"></i>
+                                             <a href="#">8 Comments</a>
+                                          </span>
+                                       </li>
+                                    </ul>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="item">
+                        <div class="rt-post-overlay rt-post-overlay-xl layout-1">
+                           <div class="hero">
+                              <a href="#" class="img-link">
+                                 <img src="assets/images/hero/hero2.jpg" alt="">
+                              </a>
+                           </div>
+                           <div class="hero-content">
+                              <div class="post-content">
+                                 <a href="#" class="fashion">Strategic Projects</a>
+                                 <h3 class="post-title bold-underline">
+                                    <a href="#">Experts And Thought Leaders Gather At Dubai Metaverse Assembly</a>
+                                 </h3>
+                                 <div class="post-meta">
+                                    <ul>
+                                       <li>
+                                          <span class="rt-meta">
+                                             by <a href="#" class="name">Raid Alshammari</a>
+                                          </span>
+                                       </li>
+                                       <li>
+                                          <span class="rt-meta">
+                                             <i class="far fa-calendar-alt icon"></i>
+                                             JULY 17, 2024
+                                          </span>
+                                       </li>
+                                       <li>
+                                          <span class="rt-meta">
+                                             <i class="far fa-comments icon"></i>
+                                             <a href="#">5 Comments</a>
+                                          </span>
+                                       </li>
+                                    </ul>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="item">
+                        <div class="rt-post-overlay rt-post-overlay-xl layout-1">
+                           <div class="hero">
+                              <a href="#" class="img-link">
+                                 <img src="assets/images/hero/hero3.jpg" alt="">
+                              </a>
+                           </div>
+                           <div class="hero-content">
+                              <div class="post-content">
+                                 <a href="#" class="fashion">One Billion Meals</a>
+                                 <h3 class="post-title bold-underline">
+                                    <a href="#">Mohammed bin Rashid reviews the 'One Billion Meals Endowment Tower'</a>
+                                 </h3>
+                                 <div class="post-meta">
+                                    <ul>
+                                       <li>
+                                          <span class="rt-meta">
+                                             by <a href="#" class="name">Raid Alshammari</a>
+                                          </span>
+                                       </li>
+                                       <li>
+                                          <span class="rt-meta">
+                                             <i class="far fa-calendar-alt icon"></i>
+                                             JULY 17, 2024
+                                          </span>
+                                       </li>
+                                       <li>
+                                          <span class="rt-meta">
+                                             <i class="far fa-comments icon"></i>
+                                             <a href="#">4 Comments</a>
+                                          </span>
+                                       </li>
+                                    </ul>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- End Hero Section -->
+
+      <!-- Top Stories Section -->
+      <section class="section-padding">
+         <div class="container">
+            <div class="row">
+               <div class="col-12">
                   <h2 class="rt-section-heading">
-                  <span class="rt-section-text">Top Stories </span>
+                     <span class="rt-section-text">Top Stories </span>
+                     <span class="rt-section-dot"></span>
+                     <span class="rt-section-line"></span>
+                  </h2>
+               </div>
+            </div>
+            <div class="row gutter-24">
+               <div class="col-xl-3 col-md-4">
+                  <div class="rt-post-grid grid-meta">
+                     <div class="post-img">
+                        <a href="#">
+                           <img src="assets/images/topstories/post-md_1.jpg" alt="post" width="551" height="431">
+                        </a>
+                     </div>
+                     <div class="post-content">
+                        <a href="#" class="rt-post-cat-normal">Reports</a>
+                        <h3 class="post-title">
+                           <a href="#">Five Transformative Projects Elevating Dubai to a Global Economic Hub.</a>
+                        </h3>
+                        <div class="post-meta">
+                           <ul>
+                              <li>
+                                 <span class="rt-meta">
+                                    by <a href="#" class="name">Raid Alshammari</a>
+                                 </span>
+                              </li>
+                              <li>
+                                 <span class="rt-meta">
+                                    <i class="far fa-calendar-alt icon"></i>
+                                    JULY 17, 2024
+                                 </span>
+                              </li>
+                           </ul>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <!-- end col1 -->
+               <div class="col-xl-3 col-md-4">
+                  <div class="rt-post-grid grid-meta">
+                     <div class="post-img">
+                        <a href="#">
+                           <img src="assets/images/topstories/post-md_2.jpg" alt="post" width="551" height="431">
+                        </a>
+                     </div>
+                     <div class="post-content">
+                        <a href="#" class="rt-post-cat-normal">Future</a>
+                        <h3 class="post-title">
+                           <a href="#">AlOlama Shares Future Perspectives on AI and Its Societal Benefits.</a>
+                        </h3>
+                        <div class="post-meta">
+                           <ul>
+                              <li>
+                                 <span class="rt-meta">
+                                    by <a href="#" class="name">Raid Alshammari</a>
+                                 </span>
+                              </li>
+                              <li>
+                                 <span class="rt-meta">
+                                    <i class="far fa-calendar-alt icon"></i>
+                                    JULY 17, 2024
+                                 </span>
+                              </li>
+                           </ul>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <!-- end col2 -->
+               <div class="col-xl-3 col-md-4">
+                  <div class="rt-post-grid grid-meta">
+                     <div class="post-img">
+                        <a href="#">
+                           <img src="assets/images/topstories/post-md_3.jpg" alt="post" width="551" height="431">
+                        </a>
+                     </div>
+                     <div class="post-content">
+                        <a href="#" class="rt-post-cat-normal">Future</a>
+                        <h3 class="post-title">
+                           <a href="#">Hamdan bin Mohammed Authorizes Launch of MBZ-SAT.</a>
+                        </h3>
+                        <div class="post-meta">
+                           <ul>
+                              <li>
+                                 <span class="rt-meta">
+                                    by <a href="#" class="name">Raid Alshammari</a>
+                                 </span>
+                              </li>
+                              <li>
+                                 <span class="rt-meta">
+                                    <i class="far fa-calendar-alt icon"></i>
+                                    JULY 17, 2024
+                                 </span>
+                              </li>
+                           </ul>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <!-- end col3 -->
+               <div class="col-xl-3 col-md-4">
+
+                  <div class="rt-post-grid grid-meta">
+                     <img src="assets/images/banner/ads-1.png" alt="post" width="551" height="431">
+                  </div>
+               </div>
+               <!-- end col4 -->
+
+            </div>
+            <!-- end row -->
+         </div>
+         <!-- end container -->
+      </section>
+      <!-- End Top Stories Section -->
+
+      <!-- Banner Ads -->
+      <div class="section-padding-ads">
+         <div class="container">
+            <div class="row">
+               <div class="col-12">
+                  <div class="ad-banner-img">
+                     <a href="#">
+                        <img src="assets/images/banner/ad-banner_1.jpg" alt="ad-banner" width="1400" height="181">
+                     </a>
+                  </div>
+               </div>
+               <!-- end col -->
+            </div>
+            <!-- end row -->
+         </div>
+         <!-- end container -->
+      </div>
+      <!-- End Banner Ads -->
+
+      <!-- Investors Portfolio Section -->
+      <section class="section-padding bg--darkgrey">
+         <div class="container">
+            <div class="row">
+               <!-- Title Start -->
+               <h2 class="rt-section-heading">
+                  <span class="rt-section-text">Economists from Dubai</span>
                   <span class="rt-section-dot"></span>
                   <span class="rt-section-line"></span>
-                  </h2>
-            </div>
-         </div>
-         <div class="row gutter-24">
-         <div class="col-xl-3 col-md-4">
-               <div class="rt-post-grid grid-meta">
-                  <div class="post-img">
-                        <a href="#">
-                        <img src="assets/images/topstories/post-md_1.jpg" alt="post" width="551" height="431">
-                        </a>
-                  </div>
-                  <div class="post-content">
-                     <a href="#" class="rt-post-cat-normal">Reports</a>
-                     <h3 class="post-title">
-                     <a href="#">Five Transformative Projects Elevating Dubai to a Global Economic Hub.</a>
-                     </h3>
-                     <div class="post-meta">
-                     <ul>
-                        <li>
-                        <span class="rt-meta">
-                              by <a href="#" class="name">Raid Alshammari</a>
-                        </span>
-                        </li>
-                        <li>
-                        <span class="rt-meta">
-                              <i class="far fa-calendar-alt icon"></i>
-                              JULY 17, 2024
-                        </span>
-                        </li>
-                     </ul>
-                     </div>
-                  </div>
-               </div>
-         </div>
-         <!-- end col1 -->
-         <div class="col-xl-3 col-md-4">
-               <div class="rt-post-grid grid-meta">
-                  <div class="post-img">
-                     <a href="#">
-                     <img src="assets/images/topstories/post-md_2.jpg" alt="post" width="551" height="431">
-                     </a>
-                  </div>
-                  <div class="post-content">
-                     <a href="#" class="rt-post-cat-normal">Future</a>
-                     <h3 class="post-title">
-                     <a href="#">AlOlama Shares Future Perspectives on AI and Its Societal Benefits.</a>
-                     </h3>
-                     <div class="post-meta">
-                     <ul>
-                        <li>
-                        <span class="rt-meta">
-                              by <a href="#" class="name">Raid Alshammari</a>
-                        </span>
-                        </li>
-                        <li>
-                        <span class="rt-meta">
-                              <i class="far fa-calendar-alt icon"></i>
-                              JULY 17, 2024
-                        </span>
-                        </li>
-                     </ul>
-                     </div>
-                  </div>
-               </div>
-         </div>
-         <!-- end col2 -->
-         <div class="col-xl-3 col-md-4">
-               <div class="rt-post-grid grid-meta">
-                  <div class="post-img">
-                     <a href="#">
-                     <img src="assets/images/topstories/post-md_3.jpg" alt="post" width="551" height="431">
-                     </a>
-                  </div>
-                  <div class="post-content">
-                     <a href="#" class="rt-post-cat-normal">Future</a>
-                     <h3 class="post-title">
-                     <a href="#">Hamdan bin Mohammed Authorizes Launch of MBZ-SAT.</a>
-                     </h3>
-                     <div class="post-meta">
-                     <ul>
-                        <li>
-                        <span class="rt-meta">
-                              by <a href="#" class="name">Raid Alshammari</a>
-                        </span>
-                        </li>
-                        <li>
-                        <span class="rt-meta">
-                              <i class="far fa-calendar-alt icon"></i>
-                              JULY 17, 2024
-                        </span>
-                        </li>
-                     </ul>
-                     </div>
-                  </div>
-               </div>
-         </div>
-         <!-- end col3 -->
-         <div class="col-xl-3 col-md-4">
-            
-            <div class="rt-post-grid grid-meta">
-               <img src="assets/images/banner/ads-1.png" alt="post" width="551" height="431">
-            </div>
-      </div>
-         <!-- end col4 -->
-
-         </div>
-         <!-- end row -->
-   </div>
-   <!-- end container -->
-</section>
-<!-- End Top Stories Section -->
-
-<!-- Banner Ads -->
-<div class="section-padding-ads">
-   <div class="container">
-      <div class="row">
-         <div class="col-12">
-            <div class="ad-banner-img">
-               <a href="#">
-                  <img src="assets/images/banner/ad-banner_1.jpg" alt="ad-banner" width="1400" height="181">
-               </a>
-            </div>
-         </div>
-         <!-- end col -->
-      </div>
-      <!-- end row -->
-   </div>
-   <!-- end container -->
-</div>
-<!-- End Banner Ads -->
-
-<!-- Investors Portfolio Section -->
-<section class="section-padding bg--darkgrey">
-   <div class="container">
-      <div class="row">
-         <!-- Title Start -->
-         <h2 class="rt-section-heading">
-         <span class="rt-section-text">Economists from Dubai</span>
-         <span class="rt-section-dot"></span>
-         <span class="rt-section-line"></span>
-         </h2> <!-- Title End -->
-         <!-- Top Story Content Start -->
-         <div class="col-xl-7 col-lg-6">
-            <div id="content1" class="rt-post-overlay rt-post-overlay-xl layout-1 rt-post-overlay-hidden">
-               <div class="post-img">
-                  <a href="#" class="img-link">
-                  <img src="assets/images/investors/post-xl_1.jpg" alt="post-xl_1" width="900" height="600">
-                  </a>
-               </div>
-               <div class="post-content">
-                  <a href="#" class="fashion">Economists</a>
-                  <h3 class="post-title bold-underline">
-                  <a href="#">Mohammad Al Gergawi is considered one of the contributors to changing the business landscape of Dubai.</a>
-                  </h3>
-                  <div class="post-meta">
-                     <ul>
-                        <li>
-                        <span class="rt-meta">
-                              by <a href="#" class="name">Mohammad Al Gergawi</a>
-                        </span>
-                        </li>
-                        <li>
-                        <span class="rt-meta">
-                              <i class="far fa-calendar-alt icon"></i>
-                              JULY 17, 2024
-                        </span>
-                        </li>
-                        <li>
-                        <span class="rt-meta">
-                              <i class="far fa-comments icon"></i>
-                              <a href="#"></a>
-                        </span>
-                        </li>
-                     </ul>
-                  </div>
-               </div>
-            </div>
-            <div id="content2" class="rt-post-overlay rt-post-overlay-xl layout-1 rt-post-overlay-hidden">
-               <div class="post-img">
-                  <a href="#" class="img-link">
-                  <img src="assets/images/investors/post-lg_2.jpg" alt="post-xl_1" width="900" height="600">
-                  </a>
-               </div>
-               <div class="post-content">
-                  <a href="#" class="fashion">Economists</a>
-                  <h3 class="post-title bold-underline">
-                  <a href="#">dfsadgdhdshzdbvzdhfjfxhsdgd</a>
-                  </h3>
-                  <div class="post-meta">
-                     <ul>
-                        <li>
-                        <span class="rt-meta">
-                              by <a href="#" class="name">Mohammad Al Gergawi</a>
-                        </span>
-                        </li>
-                        <li>
-                        <span class="rt-meta">
-                              <i class="far fa-calendar-alt icon"></i>
-                              JULY 17, 2024
-                        </span>
-                        </li>
-                        <li>
-                        <span class="rt-meta">
-                              <i class="far fa-comments icon"></i>
-                              <a href="#"></a>
-                        </span>
-                        </li>
-                     </ul>
-                  </div>
-               </div>
-            </div>
-         </div>
-         <div class="col-xl-5 col-lg-6 section-margin-2">
-            <div class="row gutter-24">
-               <div class="col-12">
-                  <div class="rt-post post-md style-10">
+               </h2> <!-- Title End -->
+               <!-- Top Story Content Start -->
+               <div class="col-xl-7 col-lg-6">
+                  <div id="content1" class="rt-post-overlay rt-post-overlay-xl layout-1 rt-post-overlay-hidden">
                      <div class="post-img">
-                        <a href="#">
-                           <img src="assets/images/investors/post-lg_2.jpg" alt="post" width="696" height="491">
+                        <a href="#" class="img-link">
+                           <img src="assets/images/investors/post-xl_1.jpg" alt="post-xl_1" width="900" height="600">
                         </a>
                      </div>
                      <div class="post-content">
-                        <a href="#" class="food">Economists</a>
-                        <h3 class="post-title">
-                           <a href="#">Hana Al Rostamani, serving as the Group Chief Executive Officer of (FAB) Bank.</a>
+                        <a href="#" class="fashion">Economists</a>
+                        <h3 class="post-title bold-underline">
+                           <a href="#">Mohammad Al Gergawi is considered one of the contributors to changing the
+                              business landscape of Dubai.</a>
                         </h3>
-                        <span class="rt-meta">
-                           <i class="far fa-calendar-alt icon"></i>
-                           JULY 17, 2024
-                        </span>
+                        <div class="post-meta">
+                           <ul>
+                              <li>
+                                 <span class="rt-meta">
+                                    by <a href="#" class="name">Mohammad Al Gergawi</a>
+                                 </span>
+                              </li>
+                              <li>
+                                 <span class="rt-meta">
+                                    <i class="far fa-calendar-alt icon"></i>
+                                    JULY 17, 2024
+                                 </span>
+                              </li>
+                              <li>
+                                 <span class="rt-meta">
+                                    <i class="far fa-comments icon"></i>
+                                    <a href="#"></a>
+                                 </span>
+                              </li>
+                           </ul>
+                        </div>
+                     </div>
+                  </div>
+                  <div id="content2" class="rt-post-overlay rt-post-overlay-xl layout-1 rt-post-overlay-hidden">
+                     <div class="post-img">
+                        <a href="#" class="img-link">
+                           <img src="assets/images/investors/post-lg_2.jpg" alt="post-xl_1" width="900" height="600">
+                        </a>
+                     </div>
+                     <div class="post-content">
+                        <a href="#" class="fashion">Economists</a>
+                        <h3 class="post-title bold-underline">
+                           <a href="#">dfsadgdhdshzdbvzdhfjfxhsdgd</a>
+                        </h3>
+                        <div class="post-meta">
+                           <ul>
+                              <li>
+                                 <span class="rt-meta">
+                                    by <a href="#" class="name">Mohammad Al Gergawi</a>
+                                 </span>
+                              </li>
+                              <li>
+                                 <span class="rt-meta">
+                                    <i class="far fa-calendar-alt icon"></i>
+                                    JULY 17, 2024
+                                 </span>
+                              </li>
+                              <li>
+                                 <span class="rt-meta">
+                                    <i class="far fa-comments icon"></i>
+                                    <a href="#"></a>
+                                 </span>
+                              </li>
+                           </ul>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-xl-5 col-lg-6 section-margin-2">
+                  <div class="row gutter-24">
+                     <div class="col-12">
+                        <div class="rt-post post-md style-10">
+                           <div class="post-img">
+                              <a href="#">
+                                 <img src="assets/images/investors/post-lg_2.jpg" alt="post" width="696" height="491">
+                              </a>
+                           </div>
+                           <div class="post-content">
+                              <a href="#" class="food">Economists</a>
+                              <h3 class="post-title">
+                                 <a href="#">Hana Al Rostamani, serving as the Group Chief Executive Officer of (FAB)
+                                    Bank.</a>
+                              </h3>
+                              <span class="rt-meta">
+                                 <i class="far fa-calendar-alt icon"></i>
+                                 JULY 17, 2024
+                              </span>
+                           </div>
+                        </div>
+                     </div>
+                     <!-- end col -->
+                     <div class="col-12">
+                        <div class="rt-post post-md style-10">
+                           <div class="post-img">
+                              <a href="#">
+                                 <img src="assets/images/investors/post-lg_3.jpg" alt="post" width="696" height="491">
+                              </a>
+                           </div>
+                           <div class="post-content">
+                              <a href="#" class="technology">Economists</a>
+                              <h3 class="post-title">
+                                 <a href="#">H.E. Juma Al Majid has occupied numerous significant roles in governmental
+                                    sectors.</a>
+                              </h3>
+                              <span class="rt-meta">
+                                 <i class="far fa-calendar-alt icon"></i>
+                                 JULY 17, 2024
+                              </span>
+                           </div>
+                        </div>
+                     </div>
+                     <!-- end col -->
+                     <div class="col-12">
+                        <div class="rt-post post-md style-10">
+                           <div class="post-img">
+                              <a href="#">
+                                 <img src="assets/images/investors/post-lg_4.jpg" alt="post" width="696" height="491">
+                              </a>
+                           </div>
+                           <div class="post-content">
+                              <a href="#" class="travel">Economists</a>
+                              <h3 class="post-title">
+                                 <a href="#">Yusuffali M A, Chairman and Director at LuLu Group, is a renowned
+                                    entrepreneur.</a>
+                              </h3>
+                              <span class="rt-meta">
+                                 <i class="far fa-calendar-alt icon"></i>
+                                 JULY 17, 2024
+                              </span>
+                           </div>
+                        </div>
+                     </div>
+                     <!-- end col -->
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- End Investors Portfolio Section -->
+
+      <!-- News Articles Section -->
+      <section class="section-padding">
+         <div class="container" style="transform: none;">
+            <div class="row gutter-30 sticky-coloum-wrap" style="transform: none;">
+               <div class="col-xl-9 sticky-coloum-item">
+                  <!-- end featured-area-style-1 -->
+                  <div class="theiaStickySidebar"
+                     style="padding-top: 0px; padding-bottom: 1px; position: static; transform: none;">
+                     <div class="featured-area-style-1">
+                        <div class="wrap mb--60">
+                           <div class="featured-tab-title">
+                              <h2 class="rt-section-heading">
+                                 <span class="rt-section-text">Dubai’s Strategic Projects</Article></span>
+                                 <span class="rt-section-dot"></span>
+                                 <span class="rt-section-line"></span>
+                              </h2>
+                              <ul class="nav rt-tab-menu" id="myTab" role="tablist">
+                                 <li class="menu-item" role="presentation">
+                                    <a class="menu-link active" id="menu-1-tab" data-bs-toggle="tab" href="#menu-1"
+                                       role="tab" aria-controls="menu-1" aria-selected="true"> Technology </a>
+                                 </li>
+                                 <li class="menu-item" role="presentation">
+                                    <a class="menu-link" id="menu-2-tab" data-bs-toggle="tab" href="#menu-2" role="tab"
+                                       aria-controls="menu-2" aria-selected="false"> Business </a>
+                                 </li>
+                                 </li>
+                              </ul><!-- end nav tab -->
+                           </div>
+                           <!-- end featured-tab-title -->
+                           <div class="tab-content" id="myTabContent">
+                              <div class="tab-pane tab-item animated fadeInUp show active" id="menu-1" role="tabpanel"
+                                 aria-labelledby="menu-1-tab">
+                                 <div class="row gutter-24">
+                                    <div class="col-lg-7">
+                                       <div class="rt-post-overlay rt-post-overlay-lg">
+                                          <div class="post-img">
+                                             <a href="#" class="img-link">
+                                                <img src="assets/images/news-articles/post-xl_5.jpg" alt="" width="900"
+                                                   height="600">
+                                             </a>
+                                          </div>
+                                          <div class="post-content">
+                                             <a href="#" class="world">Entrepreneurs</a>
+                                             <h3 class="post-title bold-underline">
+                                                <a href="#">Dubai is renowned as the city of dreams due to its array of
+                                                   opportunities.</a>
+                                             </h3>
+                                             <div class="post-meta">
+                                                <ul>
+                                                   <li>
+                                                      <span class="rt-meta">
+                                                         by <a href="#" class="name">Raid Alshammari</a>
+                                                      </span>
+                                                   </li>
+                                                   <li>
+                                                      <span class="rt-meta">
+                                                         <i class="far fa-calendar-alt icon"></i>
+                                                         JULY 17, 2024
+                                                      </span>
+                                                   </li>
+                                                   <li>
+                                                      <span class="rt-meta">
+                                                         <i class="far fa-comments icon"></i>
+                                                         <a href="#"></a>
+                                                      </span>
+                                                   </li>
+                                                </ul>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div class="col-lg-5">
+                                       <div class="row gutter-24">
+                                          <div class="col-12">
+                                             <div class="rt-post post-sm style-2">
+                                                <div class="post-content">
+                                                   <a href="#" class="rt-post-cat-normal">Projects</a>
+                                                   <h4 class="post-title">
+                                                      <a href="#">Dubai Secures Global Top Spot for Third Year in
+                                                         Attracting Greenfield FDI.</a>
+                                                   </h4>
+                                                   <span class="rt-meta">
+                                                      <i class="far fa-calendar-alt icon"></i>
+                                                      JULY 17, 2024
+                                                   </span>
+                                                </div>
+                                                <div class="post-img">
+                                                   <a href="#">
+                                                      <img src="assets/images/news-articles/post-sm_1.jpg" alt="post"
+                                                         width="143" height="110">
+                                                   </a>
+                                                </div>
+                                             </div>
+                                          </div>
+                                          <div class="col-12">
+                                             <div class="rt-post post-sm style-2">
+                                                <div class="post-content">
+                                                   <a href="#" class="rt-post-cat-normal">Technology</a>
+                                                   <h4 class="post-title">
+                                                      <a href="#">TECOM Group Commits AED 1.7 Billion to New Growth
+                                                         Phase Initiatives.</a>
+                                                   </h4>
+                                                   <span class="rt-meta">
+                                                      <i class="far fa-calendar-alt icon"></i>
+                                                      JULY 17, 2024
+                                                   </span>
+                                                </div>
+                                                <div class="post-img">
+                                                   <a href="#">
+                                                      <img src="assets/images/news-articles/post-sm_2.jpg" alt="post"
+                                                         width="143" height="110">
+                                                   </a>
+                                                </div>
+                                             </div>
+                                          </div>
+                                          <div class="col-12">
+                                             <div class="rt-post post-sm style-2">
+                                                <div class="post-content">
+                                                   <a href="#" class="rt-post-cat-normal">Tourism</a>
+                                                   <h4 class="post-title">
+                                                      <a href="#">Dubai Crown Prince Tours 31st Arabian Travel Market,
+                                                         Highlights Tourism.</a>
+                                                   </h4>
+                                                   <span class="rt-meta">
+                                                      <i class="far fa-calendar-alt icon"></i>
+                                                      JULY 17, 2024
+                                                   </span>
+                                                </div>
+                                                <div class="post-img">
+                                                   <a href="#">
+                                                      <img src="assets/images/news-articles/post-sm_3.jpg" alt="post"
+                                                         width="143" height="110">
+                                                   </a>
+                                                </div>
+                                             </div>
+                                          </div>
+                                          <div class="col-12">
+                                             <div class="rt-post post-sm style-2">
+                                                <div class="post-content">
+                                                   <a href="technology.html" class="rt-post-cat-normal">Tourism</a>
+                                                   <h4 class="post-title">
+                                                      <a href="#">Emirates Airlines Achieves Multiple Accolades at
+                                                         Arabian Travel Market 2024.</a>
+                                                   </h4>
+                                                   <span class="rt-meta">
+                                                      <i class="far fa-calendar-alt icon"></i>
+                                                      JULY 17, 2024
+                                                   </span>
+                                                </div>
+                                                <div class="post-img">
+                                                   <a href="#">
+                                                      <img src="assets/images/news-articles/post-sm_4.jpg" alt="post"
+                                                         width="143" height="110">
+                                                   </a>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div><!-- end ./tab item -->
+                              <div class="tab-pane tab-item" id="menu-2" role="tabpanel" aria-labelledby="menu-2-tab">
+                                 <div class="row gutter-24">
+                                    <div class="col-lg-7">
+                                       <div class="rt-post-overlay rt-post-overlay-lg">
+                                          <div class="post-img">
+                                             <a href="#" class="img-link">
+                                                <img src="assets/images/news-articles/b1.jpg" alt="" width="900"
+                                                   height="600">
+                                             </a>
+                                          </div>
+                                          <div class="post-content">
+                                             <a href="#" class="world">Business</a>
+                                             <h3 class="post-title">
+                                                <a href="#">Dubai Internet City .. The Silicon Valley of The Middle East
+                                                   from 1999.</a>
+                                             </h3>
+                                             <div class="post-meta">
+                                                <ul>
+                                                   <li>
+                                                      <span class="rt-meta">
+                                                         by <a href="#" class="name">Raid Alshammari</a>
+                                                      </span>
+                                                   </li>
+                                                   <li>
+                                                      <span class="rt-meta">
+                                                         <i class="far fa-calendar-alt icon"></i>
+                                                         JULY 17, 2024
+                                                      </span>
+                                                   </li>
+                                                   <li>
+                                                      <span class="rt-meta">
+                                                         <i class="far fa-comments icon"></i>
+                                                         <a href="#"></a>
+                                                      </span>
+                                                   </li>
+                                                </ul>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div class="col-lg-5">
+                                       <div class="row gutter-24">
+                                          <div class="col-12">
+                                             <div class="rt-post post-sm style-2">
+                                                <div class="post-content">
+                                                   <a href="#" class="rt-post-cat-normal">Technology</a>
+                                                   <h4 class="post-title">
+                                                      <a href="#">The Dawn of the NFT and Metaverse Revolution: Just the
+                                                         Beginning.</a>
+                                                   </h4>
+                                                   <span class="rt-meta">
+                                                      <i class="far fa-calendar-alt icon"></i>
+                                                      JULY 17, 2024
+                                                   </span>
+                                                </div>
+                                                <div class="post-img">
+                                                   <a href="#">
+                                                      <img src="assets/images/news-articles/b2.jpg" alt="post"
+                                                         width="143" height="110">
+                                                   </a>
+                                                </div>
+                                             </div>
+                                          </div>
+                                          <div class="col-12">
+                                             <div class="rt-post post-sm style-2">
+                                                <div class="post-content">
+                                                   <a href="#" class="rt-post-cat-normal">Technology</a>
+                                                   <h4 class="post-title">
+                                                      <a href="#">The Emirates… A Global Center for Innovation and
+                                                         Technology.</a>
+                                                   </h4>
+                                                   <span class="rt-meta">
+                                                      <i class="far fa-calendar-alt icon"></i>
+                                                      JULY 17, 2024
+                                                   </span>
+                                                </div>
+                                                <div class="post-img">
+                                                   <a href="#">
+                                                      <img src="assets/images/news-articles/b3.jpg" alt="post"
+                                                         width="143" height="110">
+                                                   </a>
+                                                </div>
+                                             </div>
+                                          </div>
+                                          <div class="col-12">
+                                             <div class="rt-post post-sm style-2">
+                                                <div class="post-content">
+                                                   <a href="#" class="rt-post-cat-normal">Future of AI</a>
+                                                   <h4 class="post-title">
+                                                      <a href="#">Hamdan bin Mohammed Reveals AI Retreat 2024 Scheduled
+                                                         for June 11.</a>
+                                                   </h4>
+                                                   <span class="rt-meta">
+                                                      <i class="far fa-calendar-alt icon"></i>
+                                                      JULY 17, 2024
+                                                   </span>
+                                                </div>
+                                                <div class="post-img">
+                                                   <a href="#">
+                                                      <img src="assets/images/news-articles/b4.jpg" alt="post"
+                                                         width="143" height="110">
+                                                   </a>
+                                                </div>
+                                             </div>
+                                          </div>
+                                          <div class="col-12">
+                                             <div class="rt-post post-sm style-2">
+                                                <div class="post-content">
+                                                   <a href="technology.html" class="rt-post-cat-normal">Amazon</a>
+                                                   <h4 class="post-title">
+                                                      <a href="#">The 5 minutes Decision Behind Amazon’s Acquisitions of
+                                                         Souq.com.</a>
+                                                   </h4>
+                                                   <span class="rt-meta">
+                                                      <i class="far fa-calendar-alt icon"></i>
+                                                      JULY 17, 2024
+                                                   </span>
+                                                </div>
+                                                <div class="post-img">
+                                                   <a href="#">
+                                                      <img src="assets/images/news-articles/b5.jpg" alt="post"
+                                                         width="143" height="110">
+                                                   </a>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div><!-- end ./tab item -->
+                           </div> <!-- end /.tab-content -->
+                        </div>
                      </div>
                   </div>
                </div>
                <!-- end col -->
-               <div class="col-12">
-                  <div class="rt-post post-md style-10">
-                     <div class="post-img">
-                        <a href="#">
-                           <img src="assets/images/investors/post-lg_3.jpg" alt="post" width="696" height="491">
-                        </a>
-                     </div>
-                     <div class="post-content">
-                        <a href="#" class="technology">Economists</a>
-                        <h3 class="post-title">
-                           <a href="#">H.E. Juma Al Majid has occupied numerous significant roles in governmental sectors.</a>
-                        </h3>
-                        <span class="rt-meta">
-                           <i class="far fa-calendar-alt icon"></i>
-                           JULY 17, 2024
-                        </span>
-                     </div>
-                  </div>
-               </div>
-               <!-- end col -->
-               <div class="col-12">
-                  <div class="rt-post post-md style-10">
-                     <div class="post-img">
-                        <a href="#">
-                           <img src="assets/images/investors/post-lg_4.jpg" alt="post" width="696" height="491">
-                        </a>
-                     </div>
-                     <div class="post-content">
-                        <a href="#" class="travel">Economists</a>
-                        <h3 class="post-title">
-                           <a href="#">Yusuffali M A, Chairman and Director at LuLu Group, is a renowned entrepreneur.</a>
-                        </h3>
-                        <span class="rt-meta">
-                           <i class="far fa-calendar-alt icon"></i>
-                           JULY 17, 2024
-                        </span>
+               <div class="col-xl-3 col-lg-8 mx-auto sticky-coloum-item">
+                  <div class="theiaStickySidebar"
+                     style="padding-top: 0px; padding-bottom: 1px; position: static; transform: none; left: 1016.5px; top: 0px;">
+                     <div class="rt-sidebar sticky-wrap">
+                        <div class="sidebar-wrap mb--40">
+                           <h2 class="rt-section-heading mb--30">
+                              <span class="rt-section-text">Featured Categories</span>
+                              <span class="rt-section-dot"></span>
+                              <span class="rt-section-line"></span>
+                           </h2>
+                           <ul class="rt-categories">
+                              <li>
+                                 <a href="#" data-bg-image="assets/images/category/cat_2.jpg"
+                                    style="background-image: url(&quot;assets/images/category/cat_2.jpg&quot;);">
+                                    <span class="cat-name">Business</span>
+                                    <span class="count">59</span>
+                                 </a>
+                              </li>
+                              <li>
+                                 <a href="#" data-bg-image="assets/images/category/cat_1.jpg"
+                                    style="background-image: url(&quot;assets/images/category/cat_1.jpg&quot;);">
+                                    <span class="cat-name">World</span>
+                                    <span class="count">12</span>
+                                 </a>
+                              </li>
+                              <li>
+                                 <a href="#" data-bg-image="assets/images/category/cat_3.jpg"
+                                    style="background-image: url(&quot;assets/images/category/cat_3.jpg&quot;);">
+                                    <span class="cat-name">Technology</span>
+                                    <span class="count">59</span>
+                                 </a>
+                              </li>
+                              <li>
+                                 <a href="#" data-bg-image="assets/images/category/cat_4.jpg"
+                                    style="background-image: url(&quot;assets/images/category/cat_4.jpg&quot;);">
+                                    <span class="cat-name">Investing</span>
+                                    <span class="count">12</span>
+                                 </a>
+                              </li>
+                              <li>
+                                 <a href="#" data-bg-image="assets/images/category/cat_5.jpg"
+                                    style="background-image: url(&quot;assets/images/category/cat_5.jpg&quot;);">
+                                    <span class="cat-name">Travel</span>
+                                    <span class="count">12</span>
+                                 </a>
+                              </li>
+                           </ul>
+                        </div>
+                        <!-- end slidebar wrap  -->
+                        <div>
+                           <img src="assets/images/banner/ad-post_1.jpg" alt="">
+                        </div>
                      </div>
                   </div>
                </div>
                <!-- end col -->
             </div>
+            <!-- end row -->
          </div>
-      </div>
-   </div>
-</section>
-<!-- End Investors Portfolio Section -->
+         <!--  end container -->
+      </section>
+      <!-- End News Articles Section -->
 
-<!-- News Articles Section -->
-<section class="section-padding">
-   <div class="container" style="transform: none;">
-      <div class="row gutter-30 sticky-coloum-wrap" style="transform: none;">
-         <div class="col-xl-9 sticky-coloum-item">
-            <!-- end featured-area-style-1 -->
-            <div class="theiaStickySidebar" style="padding-top: 0px; padding-bottom: 1px; position: static; transform: none;">
-               <div class="featured-area-style-1">
-                  <div class="wrap mb--60">
-                     <div class="featured-tab-title">
-                        <h2 class="rt-section-heading">
-                           <span class="rt-section-text">Dubai’s Strategic Projects</Article></span>
-                           <span class="rt-section-dot"></span>
-                           <span class="rt-section-line"></span>
-                        </h2>
-                        <ul class="nav rt-tab-menu" id="myTab" role="tablist">
-                           <li class="menu-item" role="presentation">
-                              <a class="menu-link active" id="menu-1-tab" data-bs-toggle="tab" href="#menu-1" role="tab" aria-controls="menu-1" aria-selected="true"> Technology </a>
-                           </li>
-                           <li class="menu-item" role="presentation">
-                              <a class="menu-link" id="menu-2-tab" data-bs-toggle="tab" href="#menu-2" role="tab" aria-controls="menu-2" aria-selected="false"> Business </a>
-                           </li>
-                           </li>
-                        </ul><!-- end nav tab -->
-                     </div>
-                     <!-- end featured-tab-title -->
-                     <div class="tab-content" id="myTabContent">
-                        <div class="tab-pane tab-item animated fadeInUp show active" id="menu-1" role="tabpanel" aria-labelledby="menu-1-tab">
-                           <div class="row gutter-24">
-                              <div class="col-lg-7">
-                                 <div class="rt-post-overlay rt-post-overlay-lg">
+      <!-- Podcast Section -->
+      <section class="section-padding-3 section-margin-1 section-background-color">
+         <div class="container" style="transform: none;">
+            <div class="row gutter-30 sticky-coloum-wrap" style="transform: none;">
+               <div class="col-xl-12 sticky-coloum-item"
+                  style="position: relative; overflow: visible; box-sizing: border-box; min-height: 1px;">
+                  <!-- end featured-area-style-1 -->
+                  <div class="theiaStickySidebar"
+                     style="padding-top: 0px; padding-bottom: 1px; position: static; transform: none;">
+                     <div class="featured-area-style-1">
+                        <div class="wrap">
+                           <h2 class="rt-section-heading">
+                              <span class="rt-section-text">Podcasts</span>
+                              <span class="rt-section-dot"></span>
+                              <span class="rt-section-line"></span>
+                           </h2>
+                           <div class="row gutter-10">
+                              <div class="col-md-4">
+                                 <div class="rt-post post-md style-8">
                                     <div class="post-img">
-                                       <a href="#" class="img-link">
-                                          <img src="assets/images/news-articles/post-xl_5.jpg" alt="" width="900" height="600">
+                                       <a href="#">
+                                          <img src="assets/images/podcast/post-xl_6.jpg" alt="post" width="551"
+                                             height="430">
                                        </a>
                                     </div>
                                     <div class="post-content">
-                                       <a href="#" class="world">Entrepreneurs</a>
-                                       <h3 class="post-title bold-underline">
-                                          <a href="#">Dubai is renowned as the city of dreams due to its array of opportunities.</a>
-                                       </h3>
-                                       <div class="post-meta">
-                                          <ul>
-                                             <li>
-                                                <span class="rt-meta">
-                                                   by <a href="#" class="name">Raid Alshammari</a>
-                                                </span>
-                                             </li>
-                                             <li>
-                                                <span class="rt-meta">
-                                                   <i class="far fa-calendar-alt icon"></i>
-                                                   JULY 17, 2024
-                                                </span>
-                                             </li>
-                                             <li>
-                                                <span class="rt-meta">
-                                                   <i class="far fa-comments icon"></i>
-                                                   <a href="#"></a>
-                                                </span>
-                                             </li>
-                                          </ul>
-                                       </div>
+                                       <a href="#" class="ft-gym">Podcast</a>
+                                       <h4 class="post-title">
+                                          <a href="#">Mohammad Al Gergawi.</a>
+                                       </h4>
+                                       <span class="rt-meta">
+                                          <i class="far fa-calendar-alt icon"></i>
+                                          JULY 17, 2024
+                                       </span>
                                     </div>
                                  </div>
                               </div>
-                              <div class="col-lg-5">
-                                 <div class="row gutter-24">
-                                    <div class="col-12">
-                                       <div class="rt-post post-sm style-2">
-                                          <div class="post-content">
-                                             <a href="#" class="rt-post-cat-normal">Projects</a>
-                                             <h4 class="post-title">
-                                                <a href="#">Dubai Secures Global Top Spot for Third Year in Attracting Greenfield FDI.</a>
-                                             </h4>
-                                             <span class="rt-meta">
-                                                <i class="far fa-calendar-alt icon"></i>
-                                                JULY 17, 2024
-                                             </span>
-                                          </div>
-                                          <div class="post-img">
-                                             <a href="#">
-                                                <img src="assets/images/news-articles/post-sm_1.jpg" alt="post" width="143" height="110">
-                                             </a>
-                                          </div>
-                                       </div>
-                                    </div>
-                                    <div class="col-12">
-                                       <div class="rt-post post-sm style-2">
-                                          <div class="post-content">
-                                             <a href="#" class="rt-post-cat-normal">Technology</a>
-                                             <h4 class="post-title">
-                                                <a href="#">TECOM Group Commits AED 1.7 Billion to New Growth Phase Initiatives.</a>
-                                             </h4>
-                                             <span class="rt-meta">
-                                                <i class="far fa-calendar-alt icon"></i>
-                                                JULY 17, 2024
-                                             </span>
-                                          </div>
-                                          <div class="post-img">
-                                             <a href="#">
-                                                <img src="assets/images/news-articles/post-sm_2.jpg" alt="post" width="143" height="110">
-                                             </a>
-                                          </div>
-                                       </div>
-                                    </div>
-                                    <div class="col-12">
-                                       <div class="rt-post post-sm style-2">
-                                          <div class="post-content">
-                                             <a href="#" class="rt-post-cat-normal">Tourism</a>
-                                             <h4 class="post-title">
-                                                <a href="#">Dubai Crown Prince Tours 31st Arabian Travel Market, Highlights Tourism.</a>
-                                             </h4>
-                                             <span class="rt-meta">
-                                                <i class="far fa-calendar-alt icon"></i>
-                                                JULY 17, 2024
-                                             </span>
-                                          </div>
-                                          <div class="post-img">
-                                             <a href="#">
-                                                <img src="assets/images/news-articles/post-sm_3.jpg" alt="post" width="143" height="110">
-                                             </a>
-                                          </div>
-                                       </div>
-                                    </div>
-                                    <div class="col-12">
-                                       <div class="rt-post post-sm style-2">
-                                          <div class="post-content">
-                                             <a href="technology.html" class="rt-post-cat-normal">Tourism</a>
-                                             <h4 class="post-title">
-                                                <a href="#">Emirates Airlines Achieves Multiple Accolades at Arabian Travel Market 2024.</a>
-                                             </h4>
-                                             <span class="rt-meta">
-                                                <i class="far fa-calendar-alt icon"></i>
-                                                JULY 17, 2024
-                                             </span>
-                                          </div>
-                                          <div class="post-img">
-                                             <a href="#">
-                                                <img src="assets/images/news-articles/post-sm_4.jpg" alt="post" width="143" height="110">
-                                             </a>
-                                          </div>
-                                       </div>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                        </div><!-- end ./tab item -->
-                        <div class="tab-pane tab-item" id="menu-2" role="tabpanel" aria-labelledby="menu-2-tab">
-                           <div class="row gutter-24">
-                              <div class="col-lg-7">
-                                 <div class="rt-post-overlay rt-post-overlay-lg">
+                              <!-- end col -->
+                              <div class="col-md-4">
+                                 <div class="rt-post post-md style-8">
                                     <div class="post-img">
-                                       <a href="#" class="img-link">
-                                          <img src="assets/images/news-articles/b1.jpg" alt="" width="900" height="600">
+                                       <a href="#">
+                                          <img src="assets/images/podcast/post-xl_7.jpg" alt="post" width="551"
+                                             height="430">
                                        </a>
                                     </div>
                                     <div class="post-content">
-                                       <a href="#" class="world">Business</a>
-                                       <h3 class="post-title">
-                                          <a href="#">Dubai Internet City .. The Silicon Valley of The Middle East from 1999.</a>
-                                       </h3>
-                                       <div class="post-meta">
-                                          <ul>
-                                             <li>
-                                                <span class="rt-meta">
-                                                   by <a href="#" class="name">Raid Alshammari</a>
-                                                </span>
-                                             </li>
-                                             <li>
-                                                <span class="rt-meta">
-                                                   <i class="far fa-calendar-alt icon"></i>
-                                                   JULY 17, 2024
-                                                </span>
-                                             </li>
-                                             <li>
-                                                <span class="rt-meta">
-                                                   <i class="far fa-comments icon"></i>
-                                                   <a href="#"></a>
-                                                </span>
-                                             </li>
-                                          </ul>
-                                       </div>
+                                       <a href="#" class="ft-gym">Podcast</a>
+                                       <h4 class="post-title">
+                                          <a href="#">Mohamed Al Abbar.</a>
+                                       </h4>
+                                       <span class="rt-meta">
+                                          <i class="far fa-calendar-alt icon"></i>
+                                          JULY 17, 2024
+                                       </span>
                                     </div>
                                  </div>
                               </div>
-                              <div class="col-lg-5">
-                                 <div class="row gutter-24">
-                                    <div class="col-12">
-                                       <div class="rt-post post-sm style-2">
-                                          <div class="post-content">
-                                             <a href="#" class="rt-post-cat-normal">Technology</a>
-                                             <h4 class="post-title">
-                                                <a href="#">The Dawn of the NFT and Metaverse Revolution: Just the Beginning.</a>
-                                             </h4>
-                                             <span class="rt-meta">
-                                                <i class="far fa-calendar-alt icon"></i>
-                                                JULY 17, 2024
-                                             </span>
-                                          </div>
-                                          <div class="post-img">
-                                             <a href="#">
-                                                <img src="assets/images/news-articles/b2.jpg" alt="post" width="143" height="110">
-                                             </a>
-                                          </div>
+                              <!-- end col -->
+                              <div class="col-md-4">
+                                 <div class="rt-post post-md style-8">
+                                    <div class="post-img">
+                                       <a href="#">
+                                          <img src="assets/images/podcast/post-xl_8.jpg" alt="post" width="551"
+                                             height="430">
+                                       </a>
+                                    </div>
+                                    <div class="post-content">
+                                       <a href="#" class="ft-gym">Podcast</a>
+                                       <h4 class="post-title">
+                                          <a href="#">Hussein Sajwan.</a>
+                                       </h4>
+                                       <span class="rt-meta">
+                                          <i class="far fa-calendar-alt icon"></i>
+                                          JULY 17, 2024
+                                       </span>
+                                    </div>
+                                 </div>
+                              </div>
+                              <!-- end col -->
+                              <div class="col-md-4">
+                                 <div class="rt-post post-md style-8">
+                                    <div class="post-img">
+                                       <a href="#">
+                                          <img src="assets/images/podcast/post-xl_9.jpg" alt="post" width="551"
+                                             height="430">
+                                       </a>
+                                    </div>
+                                    <div class="post-content">
+                                       <a href="#" class="ft-gym">Podcast</a>
+                                       <h4 class="post-title">
+                                          <a href="#">Mohammad Al Gergawi.</a>
+                                       </h4>
+                                       <span class="rt-meta">
+                                          <i class="far fa-calendar-alt icon"></i>
+                                          JULY 17, 2024
+                                       </span>
+                                    </div>
+                                 </div>
+                              </div>
+                              <!-- end col -->
+                              <div class="col-md-4">
+                                 <div class="rt-post post-md style-8">
+                                    <div class="post-img">
+                                       <a href="#">
+                                          <img src="assets/images/podcast/post-xl_6.jpg" alt="post" width="551"
+                                             height="430">
+                                       </a>
+                                    </div>
+                                    <div class="post-content">
+                                       <a href="#" class="ft-gym">Podcast</a>
+                                       <h4 class="post-title">
+                                          <a href="#">Mohammad Al Gergawi.</a>
+                                       </h4>
+                                       <span class="rt-meta">
+                                          <i class="far fa-calendar-alt icon"></i>
+                                          JULY 17, 2024
+                                       </span>
+                                    </div>
+                                 </div>
+                              </div>
+                              <!-- end col -->
+                              <div class="col-md-4">
+                                 <div class="rt-post post-md style-8">
+                                    <div class="post-img">
+                                       <a href="#">
+                                          <img src="assets/images/podcast/post-xl_9.jpg" alt="post" width="551"
+                                             height="430">
+                                       </a>
+                                    </div>
+                                    <div class="post-content">
+                                       <a href="#" class="ft-gym">Podcast</a>
+                                       <h4 class="post-title">
+                                          <a href="#">Mohammad Al Gergawi.</a>
+                                       </h4>
+                                       <span class="rt-meta">
+                                          <i class="far fa-calendar-alt icon"></i>
+                                          JULY 17, 2024
+                                       </span>
+                                    </div>
+                                 </div>
+                              </div>
+                              <!-- end col -->
+                           </div>
+                           <!-- end inner row -->
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <!-- end col -->
+            </div>
+            <!-- end row -->
+         </div>
+         <!--  end container -->
+      </section>
+      <!-- End Podcast Section -->
+
+      <!-- Banner Ads -->
+      <div class="section-padding-ads-2">
+         <div class="container">
+            <div class="row">
+               <div class="col-12">
+                  <div class="ad-banner-img">
+                     <a href="#">
+                        <img src="assets/images/banner/ad-banner_2.jpg" alt="ad-banner" width="1400" height="181">
+                     </a>
+                  </div>
+               </div>
+               <!-- end col -->
+            </div>
+            <!-- end row -->
+         </div>
+         <!-- end container -->
+      </div>
+      <!-- End Banner Ads -->
+
+      <!-- Twitter Feed Section -->
+      <section class="section-padding-3 section-background-color">
+         <div class="container" style="transform: none;">
+            <div class="row gutter-30 sticky-coloum-wrap" style="transform: none;">
+               <div class="col-xl-12 sticky-coloum-item"
+                  style="position: relative; overflow: visible; box-sizing: border-box; min-height: 1px;">
+                  <!-- end featured-area-style-1 -->
+                  <div class="theiaStickySidebar"
+                     style="padding-top: 0px; padding-bottom: 1px; position: static; transform: none;">
+                     <div class="featured-area-style-1">
+                        <div class="wrap">
+                           <h2 class="rt-section-heading">
+                              <span class="rt-section-text">Twitter Feed</span>
+                              <span class="rt-section-dot"></span>
+                              <span class="rt-section-line"></span>
+                           </h2>
+                           <div class="row">
+                              <!-- Twitter Feed One Start -->
+                              <div class="col-md-3">
+                                 <div class="rt-post post-sm style-1">
+                                    <div class="post-img">
+                                       <img
+                                          src="https://pbs.twimg.com/profile_images/1541360880981577729/ikkBawMN_400x400.jpg"
+                                          alt="" width="100" height="100">
+                                    </div>
+                                    <div class="ms-4 post-content">
+                                       <a href="https://x.com/BusinessDubai"
+                                          class="rt-post-cat-normal">@BusinessDubai</a>
+                                       <h4 class="post-title">
+                                          The #UAE has been ranked No. 2 on the Safety...
+                                       </h4>
+                                       <span class="rt-meta">
+                                          <a href="https://x.com/BusinessDubai/status/1824424819439387129">Read More</a>
+                                       </span>
+                                    </div>
+                                 </div>
+                              </div>
+                              <!-- end col Twitter Feed One Start -->
+                              <!-- Twitter Feed Two Start -->
+                              <div class="col-md-3">
+                                 <div class="rt-post post-sm style-1">
+                                    <div class="post-img">
+                                       <img
+                                          src="https://pbs.twimg.com/profile_images/1571776441066442752/Vf8A5izj_400x400.jpg"
+                                          alt="" width="100" height="100">
+                                    </div>
+                                    <div class="ms-4 post-content">
+                                       <a href="https://x.com/DBA_Programme"
+                                          class="rt-post-cat-normal">@DBA_Programme</a>
+                                       <h4 class="post-title">
+                                          Meet DBA Year 9 graduate Antonia Moreno...
+                                       </h4>
+                                       <span class="rt-meta">
+                                          <a href="https://x.com/DBA_Programme/status/1817877741611716790">Read More</a>
+                                       </span>
+                                    </div>
+                                 </div>
+                              </div>
+                              <!-- end col Twitter Feed Two Start -->
+                              <!-- Twitter Feed Three Start -->
+                              <div class="col-md-3">
+                                 <div class="rt-post post-sm style-1">
+                                    <div class="post-img">
+                                       <img
+                                          src="https://pbs.twimg.com/profile_images/1435224693460639751/Zq5CcdDB_400x400.jpg"
+                                          alt="" width="100" height="100">
+                                    </div>
+                                    <div class="ms-4 post-content">
+                                       <a href="https://x.com/Dubai_Bayes" class="rt-post-cat-normal">@Dubai_Bayes</a>
+                                       <h4 class="post-title">
+                                          That’s a wrap! Thanks to everyone who met with us in Southeast Asia...
+                                       </h4>
+                                       <span class="rt-meta">
+                                          <a href="https://x.com/AlumniBayes/status/1633795695495741446">Read More</a>
+                                       </span>
+                                    </div>
+                                 </div>
+                              </div>
+                              <!-- end col Twitter Feed Three Start -->
+                              <!-- Twitter Feed Four Start -->
+                              <div class="col-md-3">
+                                 <div class="rt-post post-sm style-1">
+                                    <div class="post-img">
+                                       <img
+                                          src="https://pbs.twimg.com/profile_images/1586962100626378754/LT9dgCEt_400x400.jpg"
+                                          alt="" width="100" height="100">
+                                    </div>
+                                    <div class="ms-4 post-content">
+                                       <a href="https://x.com/ArabianBusiness"
+                                          class="rt-post-cat-normal">@ArabianBusiness</a>
+                                       <h4 class="post-title">
+                                          The UAE has successfully launched its first Low Earth Orbit...
+                                       </h4>
+                                       <span class="rt-meta">
+                                          <a href="https://x.com/ArabianBusiness/status/1824776027467616532">Read
+                                             More</a>
+                                       </span>
+                                    </div>
+                                 </div>
+                              </div>
+                              <!-- end col Twitter Feed Four Start -->
+                           </div>
+                           <!-- end inner row -->
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <!-- end col -->
+            </div>
+            <!-- end row -->
+         </div>
+         <!--  end container -->
+      </section>
+      <!-- End Twitter Feed Section -->
+
+      <!-- Gallery Section -->
+      <section class="section-padding-1">
+         <div class="container">
+            <div class="row">
+               <div class="col-xl-12 col-md-12 sticky-coloum-item">
+                  <!-- end featured-area-style-1 -->
+                  <div class="theiaStickySidebar"
+                     style="padding-top: 0px; padding-bottom: 1px; position: static; transform: none;">
+                     <div class="featured-area-style-1">
+                        <div class="wrap mb--60">
+                           <div class="featured-tab-title">
+                              <h2 class="rt-section-heading">
+                                 <span class="rt-section-text">Gallery</Article></span>
+                                 <span class="rt-section-dot"></span>
+                                 <span class="rt-section-line"></span>
+                              </h2>
+                              <ul class="nav rt-tab-menu" id="myTab" role="tablist">
+                                 <li class="menu-item" role="presentation">
+                                    <a class="menu-link active" id="menu-3-tab" data-bs-toggle="tab" href="#menu-3"
+                                       role="tab" aria-controls="menu-3" aria-selected="true"> Images </a>
+                                 </li>
+                                 <li class="menu-item" role="presentation">
+                                    <a class="menu-link" id="menu-4-tab" data-bs-toggle="tab" href="#menu-4" role="tab"
+                                       aria-controls="menu-4" aria-selected="false"> Videos </a>
+                                 </li>
+                                 </li>
+                              </ul><!-- end nav tab -->
+                           </div>
+                           <!-- end featured-tab-title -->
+                           <div class="tab-content" id="myTabContent">
+                              <div class="tab-pane tab-item show active" id="menu-3" role="tabpanel"
+                                 aria-labelledby="menu-3-tab">
+                                 <div class="container m--75">
+                                    <div class="row d-flex">
+                                       <!-- First Column -->
+                                       <div class="col-5th p-0 m-0 d-flex flex-column">
+                                          <div class="flex-fill"><img src="assets/images/gallery/post-md_1.jpg"
+                                                class="img-fluid" alt=""></div>
+                                          <div class="flex-fill"><img src="assets/images/gallery/1.jpg"
+                                                class="img-fluid" alt=""></div>
+                                          <div class="flex-fill"><img src="assets/images/gallery/post-md_2.jpg"
+                                                class="img-fluid" alt=""></div>
+                                       </div>
+
+                                       <!-- Second Column -->
+                                       <div class="col-5th p-0 m-0 d-flex flex-column">
+                                          <div class="flex-fill"><img src="assets/images/gallery/2.jpg"
+                                                class="img-fluid" alt=""></div>
+                                          <div class="flex-fill"><img src="assets/images/gallery/gallery3.jpg"
+                                                class="img-fluid" alt=""></div>
+                                          <div class="flex-fill"><img src="assets/images/gallery/gallery1.jpg"
+                                                class="img-fluid" alt=""></div>
+                                       </div>
+
+                                       <!-- Third Column -->
+                                       <div class="col-5th p-0 m-0 d-flex flex-column">
+                                          <div class="flex-fill"><img src="assets/images/gallery/3.jpg"
+                                                class="img-fluid" alt=""></div>
+                                          <div class="flex-fill"><img src="assets/images/gallery/post-md_5.jpg"
+                                                class="img-fluid" alt=""></div>
+                                          <div class="flex-fill"><img src="assets/images/gallery/post-xl_2.jpg"
+                                                class="img-fluid" alt=""></div>
+                                       </div>
+
+                                       <!-- Fourth Column -->
+                                       <div class="col-5th p-0 m-0 d-flex flex-column">
+                                          <div class="flex-fill"><img src="assets/images/gallery/4.jpg"
+                                                class="img-fluid vertical-image" alt=""></div>
+                                          <div class="flex-fill"><img src="assets/images/gallery/5.jpg"
+                                                class="img-fluid vertical-image" alt=""></div>
+                                       </div>
+
+                                       <!-- Fifth Column -->
+                                       <div class="col-5th p-0 m-0 d-flex flex-column">
+                                          <div class="flex-fill"><img src="assets/images/gallery/gallery3.jpg"
+                                                class="img-fluid vertical-image" alt=""></div>
+                                          <div class="flex-fill"><img src="assets/images/gallery/6.jpg"
+                                                class="img-fluid vertical-image" alt=""></div>
                                        </div>
                                     </div>
-                                    <div class="col-12">
-                                       <div class="rt-post post-sm style-2">
-                                          <div class="post-content">
-                                             <a href="#" class="rt-post-cat-normal">Technology</a>
-                                             <h4 class="post-title">
-                                                <a href="#">The Emirates… A Global Center for Innovation and Technology.</a>
-                                             </h4>
-                                             <span class="rt-meta">
-                                                <i class="far fa-calendar-alt icon"></i>
-                                                JULY 17, 2024
-                                             </span>
-                                          </div>
-                                          <div class="post-img">
-                                             <a href="#">
-                                                <img src="assets/images/news-articles/b3.jpg" alt="post" width="143" height="110">
-                                             </a>
-                                          </div>
+                                 </div>
+
+                              </div>
+                              <div class="tab-pane tab-item" id="menu-4" role="tabpanel" aria-labelledby="menu-4-tab">
+                                 <div class="container">
+                                    <div class="row d-flex">
+                                       <!-- First Column -->
+                                       <div class="col-5th p-0 m-0 d-flex flex-column">
+                                          <div class="flex-fill"><img src="assets/images/gallery/2.jpg"
+                                                class="img-fluid" alt=""></div>
+                                          <div class="flex-fill"><img src="assets/images/gallery/gallery3.jpg"
+                                                class="img-fluid" alt=""></div>
+                                          <div class="flex-fill"><img src="assets/images/gallery/gallery1.jpg"
+                                                class="img-fluid" alt=""></div>
                                        </div>
-                                    </div>
-                                    <div class="col-12">
-                                       <div class="rt-post post-sm style-2">
-                                          <div class="post-content">
-                                             <a href="#" class="rt-post-cat-normal">Future of AI</a>
-                                             <h4 class="post-title">
-                                                <a href="#">Hamdan bin Mohammed Reveals AI Retreat 2024 Scheduled for June 11.</a>
-                                             </h4>
-                                             <span class="rt-meta">
-                                                <i class="far fa-calendar-alt icon"></i>
-                                                JULY 17, 2024
-                                             </span>
-                                          </div>
-                                          <div class="post-img">
-                                             <a href="#">
-                                                <img src="assets/images/news-articles/b4.jpg" alt="post" width="143" height="110">
-                                             </a>
-                                          </div>
+
+                                       <!-- Second Column -->
+                                       <div class="col-5th p-0 m-0 d-flex flex-column">
+                                          <div class="flex-fill"><img src="assets/images/gallery/post-md_1.jpg"
+                                                class="img-fluid" alt=""></div>
+                                          <div class="flex-fill"><img src="assets/images/gallery/1.jpg"
+                                                class="img-fluid" alt=""></div>
+                                          <div class="flex-fill"><img src="assets/images/gallery/post-md_2.jpg"
+                                                class="img-fluid" alt=""></div>
                                        </div>
-                                    </div>
-                                    <div class="col-12">
-                                       <div class="rt-post post-sm style-2">
-                                          <div class="post-content">
-                                             <a href="technology.html" class="rt-post-cat-normal">Amazon</a>
-                                             <h4 class="post-title">
-                                                <a href="#">The 5 minutes Decision Behind Amazon’s Acquisitions of Souq.com.</a>
-                                             </h4>
-                                             <span class="rt-meta">
-                                                <i class="far fa-calendar-alt icon"></i>
-                                                JULY 17, 2024
-                                             </span>
-                                          </div>
-                                          <div class="post-img">
-                                             <a href="#">
-                                                <img src="assets/images/news-articles/b5.jpg" alt="post" width="143" height="110">
-                                             </a>
-                                          </div>
+
+                                       <!-- Third Column -->
+                                       <div class="col-5th p-0 m-0 d-flex flex-column">
+                                          <div class="flex-fill"><img src="assets/images/gallery/3.jpg"
+                                                class="img-fluid" alt=""></div>
+                                          <div class="flex-fill"><img src="assets/images/gallery/post-md_5.jpg"
+                                                class="img-fluid" alt=""></div>
+                                          <div class="flex-fill"><img src="assets/images/gallery/post-xl_2.jpg"
+                                                class="img-fluid" alt=""></div>
+                                       </div>
+
+                                       <!-- Fourth Column -->
+                                       <div class="col-5th p-0 m-0 d-flex flex-column">
+                                          <div class="flex-fill"><img src="assets/images/gallery/gallery3.jpg"
+                                                class="img-fluid vertical-image" alt=""></div>
+                                          <div class="flex-fill"><img src="assets/images/gallery/6.jpg"
+                                                class="img-fluid vertical-image" alt=""></div>
+                                       </div>
+
+                                       <!-- Fifth Column -->
+                                       <div class="col-5th p-0 m-0 d-flex flex-column">
+                                          <div class="flex-fill"><img src="assets/images/gallery/4.jpg"
+                                                class="img-fluid vertical-image" alt=""></div>
+                                          <div class="flex-fill"><img src="assets/images/gallery/5.jpg"
+                                                class="img-fluid vertical-image" alt=""></div>
                                        </div>
                                     </div>
                                  </div>
                               </div>
                            </div>
-                        </div><!-- end ./tab item -->
-                     </div> <!-- end /.tab-content -->
+
+                        </div>
+                     </div>
                   </div>
                </div>
             </div>
          </div>
-         <!-- end col -->
-         <div class="col-xl-3 col-lg-8 mx-auto sticky-coloum-item">
-            <div class="theiaStickySidebar" style="padding-top: 0px; padding-bottom: 1px; position: static; transform: none; left: 1016.5px; top: 0px;">
-               <div class="rt-sidebar sticky-wrap">
-                  <div class="sidebar-wrap mb--40">
-                     <h2 class="rt-section-heading mb--30">
-                        <span class="rt-section-text">Hot Categories</span>
-                        <span class="rt-section-dot"></span>
-                        <span class="rt-section-line"></span>
-                     </h2>
-                     <ul class="rt-categories">
-                        <li>
-                           <a href="#" data-bg-image="assets/images/category/cat_2.jpg" style="background-image: url(&quot;assets/images/category/cat_2.jpg&quot;);">
-                              <span class="cat-name">Business</span>
-                              <span class="count">59</span>
+      </section>
+      <!-- End Gallery Section -->
+
+   </main>
+
+   <!-- Footer -->
+   <footer class="footer">
+      <div class="footer-top footer-style-1">
+         <div class="container">
+            <div class="row">
+               <div class="col-xl-3 col-md-6">
+                  <div class="footer-widget footer-widget-1">
+                     <h3 class="footer-widget-title">Dubai Business Capital</h3>
+                     <p class="text">Dubai, 12345<br>United Arab Emirates<br><strong>Phone: </strong>+1 2345 6789
+                        00<br><strong>Email: </strong>info@dubai-businesscapital.com</p>
+                     <ul class="footer-social gutter-15">
+                        <li class="social-item">
+                           <a href="#"><i class="social-link wh bi bi-twitter-x"></i></a>
+                        </li>
+                        <li class="social-item">
+                           <a href="#"><i class="social-link wh bi bi-tiktok"></i></a>
+                        </li>
+                        <li class="social-item">
+                           <a href="#"><i class="social-link wh bi bi-youtube"></i></a>
+                        </li>
+                     </ul>
+                  </div>
+               </div>
+               <!-- end col -->
+               <div class="col-xl-3 col-md-6">
+                  <div class="footer-widget footer-widget-1">
+                     <h3 class="footer-widget-title">Contact Us</h3>
+                     <ul class="widget-list cat-list">
+                        <li class="widget-list-item">
+                           <a href="#" class="widget-list-link">
+                              Contact Us
                            </a>
                         </li>
-                        <li>
-                           <a href="#" data-bg-image="assets/images/category/cat_1.jpg" style="background-image: url(&quot;assets/images/category/cat_1.jpg&quot;);">
-                              <span class="cat-name">World</span>
-                              <span class="count">12</span>
+                        <li class="widget-list-item">
+                           <a href="#" class="widget-list-link">
+                              About Us
                            </a>
                         </li>
-                        <li>
-                           <a href="#" data-bg-image="assets/images/category/cat_3.jpg" style="background-image: url(&quot;assets/images/category/cat_3.jpg&quot;);">
-                              <span class="cat-name">Technology</span>
-                              <span class="count">59</span>
+                        <li class="widget-list-item">
+                           <a href="#" class="widget-list-link">
+                              Privacy Policy
                            </a>
                         </li>
-                        <li>
-                           <a href="#" data-bg-image="assets/images/category/cat_4.jpg" style="background-image: url(&quot;assets/images/category/cat_4.jpg&quot;);">
-                              <span class="cat-name">Investing</span>
-                              <span class="count">12</span>
+                        <li class="widget-list-item">
+                           <a href="#" class="widget-list-link">
+                              Terms of Service
                            </a>
                         </li>
-                        <li>
-                           <a href="#" data-bg-image="assets/images/category/cat_5.jpg" style="background-image: url(&quot;assets/images/category/cat_5.jpg&quot;);">
-                              <span class="cat-name">Travel</span>
-                              <span class="count">12</span>
+                        <li class="widget-list-item">
+                           <a href="#" class="widget-list-link">
+                              FAQs
                            </a>
                         </li>
                      </ul>
                   </div>
-                  <!-- end slidebar wrap  -->
-                   <div>
-                     <img src="assets/images/banner/ad-post_1.jpg" alt="">
-                   </div>
                </div>
-            </div>
-         </div>
-         <!-- end col -->
-      </div>
-      <!-- end row -->
-   </div>
-   <!--  end container -->
-</section>
-<!-- End News Articles Section -->
-
-<!-- Podcast Section -->
-<section class="section-padding-3 section-margin-1 section-background-color">
-   <div class="container" style="transform: none;">
-      <div class="row gutter-30 sticky-coloum-wrap" style="transform: none;">
-         <div class="col-xl-12 sticky-coloum-item" style="position: relative; overflow: visible; box-sizing: border-box; min-height: 1px;">
-            <!-- end featured-area-style-1 -->
-            <div class="theiaStickySidebar" style="padding-top: 0px; padding-bottom: 1px; position: static; transform: none;">
-               <div class="featured-area-style-1">
-                  <div class="wrap">
-                     <h2 class="rt-section-heading">
-                        <span class="rt-section-text">Podcasts</span>
-                        <span class="rt-section-dot"></span>
-                        <span class="rt-section-line"></span>
-                     </h2>
-                     <div class="row gutter-10">
-                        <div class="col-md-4">
-                           <div class="rt-post post-md style-8">
-                              <div class="post-img">
-                                 <a href="#">
-                                    <img src="assets/images/podcast/post-xl_6.jpg" alt="post" width="551" height="430">
-                                 </a>
-                              </div>
-                              <div class="post-content">
-                                 <a href="#" class="ft-gym">Podcast</a>
-                                 <h4 class="post-title">
-                                    <a href="#">Mohammad Al Gergawi.</a>
-                                 </h4>
-                                 <span class="rt-meta">
-                                    <i class="far fa-calendar-alt icon"></i>
-                                    JULY 17, 2024
-                                 </span>
-                              </div>
-                           </div>
-                        </div>
-                        <!-- end col -->
-                        <div class="col-md-4">
-                           <div class="rt-post post-md style-8">
-                              <div class="post-img">
-                                 <a href="#">
-                                    <img src="assets/images/podcast/post-xl_7.jpg" alt="post" width="551" height="430">
-                                 </a>
-                              </div>
-                              <div class="post-content">
-                                 <a href="#" class="ft-gym">Podcast</a>
-                                 <h4 class="post-title">
-                                    <a href="#">Mohamed Al Abbar.</a>
-                                 </h4>
-                                 <span class="rt-meta">
-                                    <i class="far fa-calendar-alt icon"></i>
-                                    JULY 17, 2024
-                                 </span>
-                              </div>
-                           </div>
-                        </div>
-                        <!-- end col -->
-                        <div class="col-md-4">
-                           <div class="rt-post post-md style-8">
-                              <div class="post-img">
-                                 <a href="#">
-                                    <img src="assets/images/podcast/post-xl_6.jpg" alt="post" width="551" height="430">
-                                 </a>
-                              </div>
-                              <div class="post-content">
-                                 <a href="#" class="ft-gym">Podcast</a>
-                                 <h4 class="post-title">
-                                    <a href="#">Hussein Sajwan.</a>
-                                 </h4>
-                                 <span class="rt-meta">
-                                    <i class="far fa-calendar-alt icon"></i>
-                                    JULY 17, 2024
-                                 </span>
-                              </div>
-                           </div>
-                        </div>
-                        <!-- end col -->
-                        <div class="col-md-4">
-                           <div class="rt-post post-md style-8">
-                              <div class="post-img">
-                                 <a href="#">
-                                    <img src="assets/images/podcast/post-xl_7.jpg" alt="post" width="551" height="430">
-                                 </a>
-                              </div>
-                              <div class="post-content">
-                                 <a href="#" class="ft-gym">Podcast</a>
-                                 <h4 class="post-title">
-                                    <a href="#">Mohammad Al Gergawi.</a>
-                                 </h4>
-                                 <span class="rt-meta">
-                                    <i class="far fa-calendar-alt icon"></i>
-                                    JULY 17, 2024
-                                 </span>
-                              </div>
-                           </div>
-                        </div>
-                        <!-- end col -->
-                        <div class="col-md-4">
-                           <div class="rt-post post-md style-8">
-                              <div class="post-img">
-                                 <a href="#">
-                                    <img src="assets/images/podcast/post-xl_7.jpg" alt="post" width="551" height="430">
-                                 </a>
-                              </div>
-                              <div class="post-content">
-                                 <a href="#" class="ft-gym">Podcast</a>
-                                 <h4 class="post-title">
-                                    <a href="#">Mohammad Al Gergawi.</a>
-                                 </h4>
-                                 <span class="rt-meta">
-                                    <i class="far fa-calendar-alt icon"></i>
-                                    JULY 17, 2024
-                                 </span>
-                              </div>
-                           </div>
-                        </div>
-                        <!-- end col -->
-                        <div class="col-md-4">
-                           <div class="rt-post post-md style-8">
-                              <div class="post-img">
-                                 <a href="#">
-                                    <img src="assets/images/podcast/post-xl_7.jpg" alt="post" width="551" height="430">
-                                 </a>
-                              </div>
-                              <div class="post-content">
-                                 <a href="#" class="ft-gym">Podcast</a>
-                                 <h4 class="post-title">
-                                    <a href="#">Mohammad Al Gergawi.</a>
-                                 </h4>
-                                 <span class="rt-meta">
-                                    <i class="far fa-calendar-alt icon"></i>
-                                    JULY 17, 2024
-                                 </span>
-                              </div>
-                           </div>
-                        </div>
-                        <!-- end col -->
-                     </div>
-                     <!-- end inner row -->
+               <!-- end col -->
+               <div class="col-xl-3 col-md-6">
+                  <div class="footer-widget footer-widget-1">
+                     <h3 class="footer-widget-title">Partner with Us</h3>
+                     <ul class="widget-list cat-list">
+                        <li class="widget-list-item">
+                           <a href="#" class="widget-list-link">
+                              Guest Articles
+                           </a>
+                        </li>
+                        <li class="widget-list-item">
+                           <a href="#" class="widget-list-link">
+                              Press Release
+                           </a>
+                        </li>
+                        <li class="widget-list-item">
+                           <a href="#" class="widget-list-link">
+                              Partner with Us
+                           </a>
+                        </li>
+                        <li class="widget-list-item">
+                           <a href="#" class="widget-list-link">
+                              Feedback
+                           </a>
+                        </li>
+                        <li class="widget-list-item">
+                           <a href="#" class="widget-list-link">
+                              Careers
+                           </a>
+                        </li>
+                     </ul>
                   </div>
                </div>
-            </div>
-         </div>
-         <!-- end col -->
-      </div>
-      <!-- end row -->
-   </div>
-   <!--  end container -->
-</section>
-<!-- End Podcast Section -->
-
-<!-- Banner Ads -->
-<div class="section-padding-ads-2">
-   <div class="container">
-      <div class="row">
-         <div class="col-12">
-            <div class="ad-banner-img">
-               <a href="#">
-                  <img src="assets/images/banner/ad-banner_2.jpg" alt="ad-banner" width="1400" height="181">
-               </a>
-            </div>
-         </div>
-         <!-- end col -->
-      </div>
-      <!-- end row -->
-   </div>
-   <!-- end container -->
-</div>
-<!-- End Banner Ads -->
-
-<!-- Twitter Feed Section -->
-<section class="section-padding-3 section-background-color">
-   <div class="container" style="transform: none;">
-      <div class="row gutter-30 sticky-coloum-wrap" style="transform: none;">
-         <div class="col-xl-12 sticky-coloum-item" style="position: relative; overflow: visible; box-sizing: border-box; min-height: 1px;">
-            <!-- end featured-area-style-1 -->
-            <div class="theiaStickySidebar" style="padding-top: 0px; padding-bottom: 1px; position: static; transform: none;">
-               <div class="featured-area-style-1">
-                  <div class="wrap">
-                     <h2 class="rt-section-heading">
-                        <span class="rt-section-text">Twitter Feed</span>
-                        <span class="rt-section-dot"></span>
-                        <span class="rt-section-line"></span>
-                     </h2>
-                     <div class="row">
-                        <!-- Twitter Feed One Start -->
-                        <div class="col-md-3">
-                           <div class="taggbox"  style="width:100%;height:100%" data-widget-id="159713" data-tags="false" ></div><script src="https://widget.taggbox.com/embed-lite.min.js" type="text/javascript"></script>
+               <!-- end col -->
+               <div class="col-xl-3 col-lg-6">
+                  <div class="footer-widget footer-widget-1">
+                     <h3 class="footer-widget-title">Newsletter</h3>
+                     <form action="#" class="rt-contact-form subscribe-form rt-form" novalidate="true">
+                        <div class="rt-form-group">
+                           <input type="email" class="form-control rt-form-control" placeholder="E-mail *" name="email"
+                              id="email_1" data-error="Email field is required" required="">
                         </div>
-                        <!-- end col Twitter Feed One Start -->
-                        <!-- Twitter Feed Two Start -->
-                        <div class="col-md-3">
-                           <div class="taggbox"  style="width:100%;height:100%" data-widget-id="159713" data-tags="false" ></div><script src="https://widget.taggbox.com/embed-lite.min.js" type="text/javascript"></script>
-                        </div>
-                        <!-- end col Twitter Feed Two Start -->
-                        <!-- Twitter Feed Three Start -->
-                        <div class="col-md-3">
-                           <div class="taggbox"  style="width:100%;height:100%" data-widget-id="159713" data-tags="false" ></div><script src="https://widget.taggbox.com/embed-lite.min.js" type="text/javascript"></script>
-                        </div>
-                        <!-- end col Twitter Feed Three Start -->
-                        <!-- Twitter Feed Four Start -->
-                        <div class="col-md-3">
-                           <div class="taggbox"  style="width:100%;height:100%" data-widget-id="159713" data-tags="false" ></div><script src="https://widget.taggbox.com/embed-lite.min.js" type="text/javascript"></script>
-                        </div>
-                        <!-- end col Twitter Feed Four Start -->
-                     </div>
-                     <!-- end inner row -->
+                        <button type="submit" class="rt-submit-btn disabled">Subscribe Now</button>
+                        <div class="form-response"></div>
+                     </form>
                   </div>
                </div>
-            </div>
-         </div>
-         <!-- end col -->
-      </div>
-      <!-- end row -->
-   </div>
-   <!--  end container -->
-</section>
-<!-- End Twitter Feed Section -->
-
-<!-- Gallery Section -->
-<section class="section-padding-1">
-   <div class="container">
-      <div class="row">
-         <div class="col-xl-12 col-md-12 sticky-coloum-item">
-            <!-- end featured-area-style-1 -->
-            <div class="theiaStickySidebar" style="padding-top: 0px; padding-bottom: 1px; position: static; transform: none;">
-               <div class="featured-area-style-1">
-                  <div class="wrap mb--60">
-                     <div class="featured-tab-title">
-                        <h2 class="rt-section-heading">
-                           <span class="rt-section-text">Gallery</Article></span>
-                           <span class="rt-section-dot"></span>
-                           <span class="rt-section-line"></span>
-                        </h2>
-                        <ul class="nav rt-tab-menu" id="myTab" role="tablist">
-                           <li class="menu-item" role="presentation">
-                              <a class="menu-link active" id="menu-3-tab" data-bs-toggle="tab" href="#menu-3" role="tab" aria-controls="menu-3" aria-selected="true"> Images </a>
-                           </li>
-                           <li class="menu-item" role="presentation">
-                              <a class="menu-link" id="menu-4-tab" data-bs-toggle="tab" href="#menu-4" role="tab" aria-controls="menu-4" aria-selected="false"> Videos </a>
-                           </li>
-                           </li>
-                        </ul><!-- end nav tab -->
-                     </div>
-                     <!-- end featured-tab-title -->
-                     <div class="tab-content" id="myTabContent">
-                        <div class="tab-pane tab-item show active" id="menu-3" role="tabpanel" aria-labelledby="menu-3-tab">
-                           <div class="container">                         
-                              <div class="row mb-5" data-masonry='{"percentPosition": true }'> 
-                                  <div class="col-6"> 
-                                    <div class="boxed-thumb">
-                                       <img class="img-responsive" src="assets/images/gallery/gallery-3.jpg" alt="">
-                                    </div>               
-                                  </div> 
-                                  <div class="col-2"> 
-                                    <div class="boxed-thumb"> 
-                                       <img class="img-responsive" src="assets/images/gallery/1.jpg" alt="">
-                                    </div>
-                                    <div class="boxed-thumb mtboxed"> 
-                                       <img class="img-responsive" src="assets/images/gallery/post-md_6.jpg" alt="">
-                                    </div> 
-                                  </div> 
-                                  <div class="col-4"> 
-                                    <div class="boxed-thumb"> 
-                                       <img class="img-responsive" src="assets/images/gallery/gallery-5.jpg" alt="">
-                                    </div>
-                                  </div> 
-                              </div> 
-                          </div> 
-                        </div>
-                        <div class="tab-pane tab-item" id="menu-4" role="tabpanel" aria-labelledby="menu-4-tab">
-                           <div class="container">                         
-                              <div class="row mb-5" data-masonry='{"percentPosition": true }'> 
-                                  <div class="col-6"> 
-                                    <div class="boxed-thumb">
-                                       <img class="img-responsive" src="assets/images/gallery/gallery-3.jpg" alt="">
-                                    </div>
-                                  </div>
-                                  <div class="col-2">
-                                    <div class="boxed-thumb">
-                                       <img class="img-responsive" src="assets/images/gallery/3.jpg" alt="">
-                                    </div>
-                                    <div class="boxed-thumb mtboxed">
-                                       <img class="img-responsive" src="assets/images/gallery/post-md_11.jpg" alt="">
-                                    </div>
-                                  </div>
-                                  <div class="col-4">
-                                    <div class="boxed-thumb">
-                                       <img class="img-responsive" src="assets/images/gallery/gallery-5.jpg" alt="">
-                                    </div>
-                                  </div>
-                              </div> 
-                          </div> 
-                        </div>
-                     </div>
-                     
-                  </div>
-               </div>
+               <!-- end col -->
             </div>
          </div>
       </div>
-   </div>
-</section>
-<!-- End Gallery Section -->
-
-</main>
-
-<!-- Footer -->
-<footer class="footer">
-   <div class="footer-top footer-style-1">
-      <div class="container">
-         <div class="row">
-            <div class="col-xl-3 col-md-6">
-               <div class="footer-widget footer-widget-1">
-                  <h3 class="footer-widget-title">Dubai Business Capital</h3>
-                  <p class="text">Dubai, 12345<br>United Arab Emirates<br><strong>Phone: </strong>+1 2345 6789 00<br><strong>Email: </strong>info@dubai-businesscapital.com</p>
-                  <ul class="footer-social gutter-15">
-                     <li class="social-item">
-                        <a href="#"><i class="social-link wh bi bi-twitter-x"></i></a>
-                     </li>
-                     <li class="social-item">
-                        <a href="#"><i class="social-link wh bi bi-tiktok"></i></a>
-                     </li>
-                     <li class="social-item">
-                        <a href="#"><i class="social-link wh bi bi-youtube"></i></a>
-                     </li>
-                  </ul>
-               </div>
+      <!-- End footer top -->
+      <div class="footer-bottom">
+         <div class="container">
+            <div class="footer-bottom-area d-flex align-items-center justify-content-center">
+               <p class="copyright-text mb-0">
+                  <span class="currentYear">2024</span> © Dubai Business Capital
+               </p>
             </div>
-            <!-- end col -->
-            <div class="col-xl-3 col-md-6">
-               <div class="footer-widget footer-widget-1">
-                  <h3 class="footer-widget-title">Contact Us</h3>
-                  <ul class="widget-list cat-list">
-                     <li class="widget-list-item">
-                        <a href="#" class="widget-list-link">
-                           Contact Us
-                        </a>
-                     </li>
-                     <li class="widget-list-item">
-                        <a href="#" class="widget-list-link">
-                           About Us
-                        </a>
-                     </li>
-                     <li class="widget-list-item">
-                        <a href="#" class="widget-list-link">
-                           Privacy Policy
-                        </a>
-                     </li>
-                     <li class="widget-list-item">
-                        <a href="#" class="widget-list-link">
-                           Terms of Service
-                        </a>
-                     </li>
-                     <li class="widget-list-item">
-                        <a href="#" class="widget-list-link">
-                           FAQs
-                        </a>
-                     </li>
-                  </ul>
-               </div>
-            </div>
-            <!-- end col -->
-            <div class="col-xl-3 col-md-6">
-               <div class="footer-widget footer-widget-1">
-                  <h3 class="footer-widget-title">Partner with Us</h3>
-                  <ul class="widget-list cat-list">
-                     <li class="widget-list-item">
-                        <a href="#" class="widget-list-link">
-                           Guest Articles
-                        </a>
-                     </li>
-                     <li class="widget-list-item">
-                        <a href="#" class="widget-list-link">
-                           Press Release
-                        </a>
-                     </li>
-                     <li class="widget-list-item">
-                        <a href="#" class="widget-list-link">
-                           Partner with Us
-                        </a>
-                     </li>
-                     <li class="widget-list-item">
-                        <a href="#" class="widget-list-link">
-                           Feedback
-                        </a>
-                     </li>
-                     <li class="widget-list-item">
-                        <a href="#" class="widget-list-link">
-                           Careers
-                        </a>
-                     </li>
-                  </ul>
-               </div>
-            </div>
-            <!-- end col -->
-            <div class="col-xl-3 col-lg-6">
-               <div class="footer-widget footer-widget-1">
-                  <h3 class="footer-widget-title">Newsletter</h3>
-                  <form action="#" class="rt-contact-form subscribe-form rt-form" novalidate="true">
-                     <div class="rt-form-group">
-                        <input type="email" class="form-control rt-form-control" placeholder="E-mail *" name="email" id="email_1" data-error="Email field is required" required="">
-                     </div>
-                     <button type="submit" class="rt-submit-btn disabled">Subscribe Now</button>
-                     <div class="form-response"></div>
-                  </form>
-               </div>
-            </div>
-            <!-- end col -->
          </div>
       </div>
-   </div>
-   <!-- End footer top -->
-   <div class="footer-bottom">
-      <div class="container">
-         <div class="footer-bottom-area d-flex align-items-center justify-content-center">
-            <p class="copyright-text mb-0">
-               <span class="currentYear">2024</span> © Dubai Business Capital
-            </p>
-         </div>
-      </div>
-   </div>
-   <!-- End footer bottom -->
-</footer>
-<!-- Footer -->
+      <!-- End footer bottom -->
+   </footer>
+   <!-- Footer -->
 
-<!-- Scroll Top -->
-<a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+   <!-- Scroll Top -->
+   <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
+         class="bi bi-arrow-up-short"></i></a>
 
-<!-- Vendor JS Files -->
-<script src="assets/vendor/jquery.js"></script>
-<script src="assets/vendor/jquery.migrate.js"></script>
-<script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-<script src="assets/vendor/owlcarousel/dist/owl.carousel.min.js"></script>
-<script src="assets/vendor/imagesloaded.pkgd.js"></script>
-<script src="assets/vendor/masonry.pkgd.js"></script>
-<!-- <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script> -->
-<!-- <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script> -->
+   <!-- Vendor JS Files -->
+   <script src="assets/vendor/jquery.js"></script>
+   <script src="assets/vendor/jquery.migrate.js"></script>
+   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+   <script src="assets/vendor/owlcarousel/dist/owl.carousel.min.js"></script>
+   <script src="assets/vendor/imagesloaded.pkgd.js"></script>
+   <script src="assets/vendor/masonry.pkgd.js"></script>
+   <!-- <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script> -->
+   <!-- <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script> -->
 
-<!-- Main JS File -->
-<script src="assets/js/main.js"></script>
+   <!-- Main JS File -->
+   <script src="assets/js/main.js"></script>
 
 </body>
 
